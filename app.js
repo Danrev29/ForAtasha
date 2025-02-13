@@ -46,9 +46,7 @@ no.addEventListener("click", () => {
 
 // changes for when YES button is clicked
 yes.addEventListener("click", () => {
-  vid.style.display = "block";
   gif.src = "https://media.tenor.com/sIAClHy5cSEAAAAi/strawberry-shortcake.gif";// gif credit: https://tenor.com/view/peach-cat-kiss-animated-love-mwah-gif-25743978
-
   text.innerHTML = "YAYYYYY!!!!!! <br> Iloveyouuu mwaaa!";
   no.style.display = "none";
   yes.style.display = "none";
