@@ -61,7 +61,4 @@ yes.addEventListener("click", () => {
   text.innerHTML = "YAYYYYY!!!!!! <br> Iloveyouuu mwaaa!";
   no.style.display = "none";
   yes.style.display = "none";
-  setTimeout(() => {
-    vid.style.display = "none";
-  }, 9000);
 });
