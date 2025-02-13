@@ -5,6 +5,15 @@ const text = document.querySelector("#text");
 const vid = document.querySelector("video");
 let count = 2;
 
+const gifs = [
+  "../resources/cat-heart.gif",
+  "../resources/rusure.gif",
+  "../resources/3shocked-1.gif",
+  "../resources/4.crying.gif",
+  "../resources/5.crying.gif",
+  "../resources/idc.gif"
+];
+
 // to load the gifs faster
 gifs.forEach(gifSrc => {
   const img = new Image();
