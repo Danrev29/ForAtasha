@@ -39,17 +39,31 @@ no.addEventListener("click", () => {
   } else if (count == 4) {
     gif.src = "https://media.tenor.com/wY_NPIJiO8MAAAAi/peach-cat.gif";// gif credit: https://tenor.com/view/cat-kitty-gif-25340141
     text.innerHTML = "Bahala ka wala ka nang lambing!";
-    yes.style.height = "80%";
-    yes.style.width = "80%";
+    yes.style.height = "75%";
+    yes.style.width = "75%";
     no.style.fontSize = "4vh";
-    no.style.width = "10%";
+    no.style.width = "15%";
     count++;
-  } else if (count == 5) {
+  } 
+  else if (count == 5) {
+    gif.src = "478178625_1561925487854274_733008967849273972_n-removebg-preview.png";// gif credit: https://tenor.com/view/cat-kitty-gif-25340141
+    text.innerHTML = "Mag yakult ka muna baby oh <br> para mag YES ka na!";
+    yes.style.height = "83%";
+    yes.style.width = "83%";
+    no.style.fontSize = "4vh";
+    no.style.width = "9%";
+    gif.style.width = "200px";
+    gif.style.height = "310px";
+    count++;
+  }  
+  else if (count == 6) {
     gif.src = "https://media.tenor.com/ppJGvOm48zIAAAAi/peach-and-goma-peach-goma.gif";// gif credit: https://tenor.com/view/cat-gif-10173437195524493032
     text.innerHTML = "Wala ka nang no choice boss! hihi";
     yes.style.height = "90%";
     yes.style.width = "96%";
     no.style.display = "none";
+    gif.style.width = "70%";
+    gif.style.height = "90%";
   }
 });
 
